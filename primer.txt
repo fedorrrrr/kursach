@@ -1,0 +1,39 @@
+program kurs;
+var h : float;
+var a,b,c: integer;
+
+function max(var k, l: integer;): integer;
+{
+if  ((k < l) and (k!=l)) {
+	integer max := l;}   @Max is l@
+
+	else  {
+	integer max := k; }; @Max is k@
+print (max); }
+
+
+@comment@
+
+
+{
+float h := 8.2;  @real value@
+integer n := 1;
+while (n < 5)do
+	{
+	print(n);
+	integer d := n;
+	integer q := d * 5;
+    integer n := d + 1;
+	print(q);
+
+	};
+
+
+float p := 3.2;
+integer x := 6 * 4;
+integer y := x / 2;
+integer z := x + y;
+print(z);
+
+}
+@end program@
